@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+header {
+    background-image: url("gunung.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar {
+    color: black;
+    background-color: #ffffff; 
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+.card {
+    border: 1px solid #ddd; 
+    margin-bottom: 20px;
+}
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: black;
+}
